@@ -1,0 +1,65 @@
+@import 'vars';
+
+.card {
+  text-align: left;
+  height: 450px;
+  width:400px;
+  border: 1px solid grey;
+  padding: 20px;
+  margin: auto;
+  margin-top: 200px;
+  box-shadow: 0px 0px 15px 5px grey;
+}
+
+
+.section-cards_list{
+  list-style-type: none;
+}
+
+.card-imgPerfil {
+  height: 70px;
+  border-radius: 50%;
+  border: solid 1px grey;
+  margin: 10px;
+}
+
+
+
+.card-header {
+  background-color: white;
+  height: 100px;
+  font-size: 16px;
+  color: grey;
+  display: flex;
+}
+
+.header-text{
+  padding-top: 10px;
+  line-height: 6px;
+  padding-left: 10px;
+
+}
+
+.card-main{
+  color: grey;
+}
+
+
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.card-link {
+  color: grey;
+  text-decoration: none;
+  
+}
+
+i{
+  color:red;
+  font-size: 30px;
+  padding-right: 30px;
+  
+}
